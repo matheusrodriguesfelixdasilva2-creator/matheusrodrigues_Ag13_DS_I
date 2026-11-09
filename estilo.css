@@ -1,0 +1,84 @@
+/* Estilo principal do portal */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #302060;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Organização das três seções */
+
+.secoes {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo de cada seção */
+
+.secao {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Títulos */
+
+.titulo-secao {
+    color: purple;
+    margin-bottom: 10px;
+}
+
+/* Organização das imagens */
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Estilo das imagens */
+
+.galeria img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #302060;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Em celulares, as seções ficam uma abaixo da outra */
+
+@media (max-width: 800px) {
+
+    .secoes {
+        flex-direction: column;
+    }
+
+}
