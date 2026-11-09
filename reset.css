@@ -1,0 +1,21 @@
+/* CSS Reset inspirado no modelo de Eric Meyer */
+
+html, body, div, span,
+h1, h2, p, img,
+header, footer, main, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Organização básica dos elementos */
+
+header, footer, main, section {
+    display: block;
+}
+
+/* Remove os estilos padrões */
+
+* {
+    box-sizing: border-box;
+}
